@@ -1,0 +1,33 @@
+Notas Curso.dev <----- projeto em react (NextJs)
+Sincronização de versão em projetos node pode ser feita com o nvm.
+comandos:
+nvm ls <--- Lista versões do note disponíveis
+nvm install version-name <---- Instala versão desejada
+nvm --help <--- ajuda do nvm, lista comandos disponíveis
+nvm alias default <----- Permite definir qual nvm padrão do projeto. Dessa forma mesmo que o codespace seja reniciado, irá puxar a versão correta
+
+É uma convenção arquivos terminados em "rc": "bashrc", "vimrc", "npmrc", etc... o "rc" é de "Run Commands". São arquivos de script que possuem instrução de inicialização
+
+Arquivo .nvmrc (arquivo rc do nvm): Pode-se definir aqui qual a versão recomenada para utilização no projeto. Basta informar o nome da versão que aparece no "nvm list" e finalizar o arquivo com uma linha em branco (o nvm precisa dessa linha em branco no final).
+
+Comandos:
+npm init <---- cria um arquivo package.json básico
+npm install pkgname@version <---- instala pacotes na versão especificada e automaticamente insere esses pacotes como dependências no package.json
+
+Arquivo package.json <---- Arquivo de manifesto que guarda tanto metadados do projeto (autor, descrição, etc), alguns scripts utilizados pelo comando "npm run" mas, principalmente as dependências do projeto, pacotes instalados utilizando o comando "npm iinstall pkgname@version".
+Arquivo package-lock.json <---- Também é um arquivo de manifesto porém, específico de dependências do projeto. Nesse arquivo são armazenadas informações tanto das dependências quanto das dependências de dependências do projeto. Ele registra e "trava" a árvore de dependências do projeto, armazenando as versões corretas.
+
+Foi feita a tentativa de fazer o deploy de um site simples no vercel. Encontrei um erro pois, inicialmente o vercel não identificou o proejto como "Next". Foi necessário ir nas configurações do projeto no Vercel, "Build and Deployment" e selecionar "Next.js" como "Framework Setting". Dessa forma o Vercel entendeu que o porjeto é NextJS e realizou o build e deploy do projeto corretamente com configurações padrão.
+
+Git:
+Comandos GIT Offline:
+	git log - listar os commits do repositório.
+	git add - sobe alterações para a staging area.
+	git commit - realiza novos commits.
+	git commit --amend - substitui o commit anterior por um novo, mas aproveita as alterações dele.
+	git diff - calcula a diferença entre as versões/alterações dos arquivos.
+Todos estes comandos funcionam de forma offline no Git e podem ser usados sem a necessidade de uma conexão com a internet, pois nenhum deles transmite informações para fora do seu computador.
+
+git branch - listar branchs existentes no repositorio
+
+git push --force -  É um recurso perigoso, deve ser usado com extremo cuidado. Usar de forma incorreta pode causar em perda de trabalho no repositório
