@@ -30,4 +30,4 @@ Todos estes comandos funcionam de forma offline no Git e podem ser usados sem a 
 
 git branch - listar branchs existentes no repositorio
 
-git push --force -  É um recurso perigoso, deve ser usado com extremo cuidado. Usar de forma incorreta pode causar em perda de trabalho no repositório
+git push --force ou -f - Força o clone local para o origin. É um recurso perigoso, deve ser usado com extremo cuidado. Usar de forma incorreta pode causar em perda de trabalho no repositório
