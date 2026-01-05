@@ -31,3 +31,26 @@ Todos estes comandos funcionam de forma offline no Git e podem ser usados sem a 
 git branch - listar branchs existentes no repositorio
 
 git push --force ou -f - Força o clone local para o origin. É um recurso perigoso, deve ser usado com extremo cuidado. Usar de forma incorreta pode causar em perda de trabalho no repositório
+
+
+Programação "orgânica" versus "impressora 3d".
+São modelos de programação. É importante pensar em qual escolher sempre ao iniciar um projeto.
+Programação Orgânica - Indicado para quando se está realizando um projeto pela primeira vez. Apesar de ser indicado não significa que não apresente problemas. Essa estratégia irá apresentar desafios mas, que irão apresentar coisas novas. 
+O modelo orgânico diminui muito a incidência de "over engineering" (complicar demais algo que poderia ser mais simples), ajuda também a evitar "feature creep" (quando um projeto tem tantos recursos que acaba mais atrapalhando que solucionando problemas). Perder o controle desses 2 pontos é extremamente prejudicial para a continuidade do projeto.
+
+Impressora 3d - Indicado para quando a situação não é mais nova. Onde ja se sabe o que esperar.
+
+Organização de tarefas - Fazer muito com pouco ao invés de fazer pouco com muito. Essa frase é extremamente interessante, pois se relaciona com características humanas. O cérebro humano calcula o "saldo" das coisas, para saber se as tarefas valem a pena serem executadas ou não. Existem níveis de organização da terefas do mais simples para o mais complexo. Um nível não é necessáriamente melhor que o outro, é preciso compreender no contexto se o "saldo" para dado nível de organização será positivo ou negativo. Errar nessa escolha acaba impedindo ou travando o projeto de várias formas.
+Níveis de organização de tarefas:
+Ter uma forma de registrar o progresso nas formas de organização é importante. Além de melhorar o registro o corpo humano reage positivamente ao ver as tarefas sinalizadas como concluídas.
+1 - Ser lembrado individualmente - Ajuda o indvíduo a lebrar das coisas que ele precisa fazer. Serve pra quando ja se sabe como e o que precisa ser feito porém, é necessário que aquilo seja lembrado para evitar esquecimento. Técnicas com baixo custo de produção (custo baixo de energia para registrar o que precisa ser feito) e de baixo tempo de aquecimento (custo baixo de energia para consultar o que precisa ser feito) são ideiais nesse nível. Anotar tarefas no papel de forma simples (anotações simples, que não demandam muito esforço para serem registradas, apenas títulos ou tópicos), e deixar o papel na mesa, visível (facil de visualizar, basta apenas bater o olho para saber o que precisa ser feito) é uma forma de organização nivel 1.
+
+2 - Ser lembrado em grupo - Ideia semelhante ao nível 1, de anotações simples e de fácil visualização porém, em grupo. Muito comum em empresas, quadros kanban são um exemplo. Custo de produção relativamente baixo porém, tempo de aquecimento mais alto, é necessário ligar o computador, acessar o sistema, esperar a página carrega, etc.
+
+3 - Expandir conhecimento - Conversar e desenvolver de forma detalhada "o quê?" e "como?" a tarefa deve ser executada. Trello e Github são exemplos. Existem espaços dedicados a discussões sobre a melhor forma de resolver um problema onde várias pessoas podem contribuir e, dessa forma expandir e produzir conhecimento nesses ambientes. Nesse nível o "saldo" ja começa a ficar "mais caro" que nos níveis anteriores, aqui a produção de conhecimento é mais cara, é necessário buscar informações novas e os registros são mais detalhados.
+
+4 - Gerar métricas - Nesse nível é possível mensurar a produtividade das pessoas que trabalham nas tarefas. É complexo de lidar pois muitas vezes é necessário que quem executa as tarefas também as registre, inserindo uma carga de trabalho a mais em quem executa. Acaba impactando em tudo que a pessoa precisa trabalhar. É um nível de organização caro. É importante perceber que a mensuração das tarefas e um meio e não um fim, não se deve apenas executar as tarefas pensando nas métricas. Jira é um exemplo de ferramenta para esse nível de organização.
+
+É importante então, cuidar do "saldo" que a organização de tarefas terá no projeto. É importante trabalhar para que esse "saldo" não fique negativo.
+
+Issue de inception - (CONCEITO) É uma issue no github criada no início de um projeto com o intuito de registrar a ideia inicial do projeto, de forma linear. Essa issue facilita muito a visualização e posterior organização do porjeto. Além de permitir identificar erros na fase de concepção. Com a ideia descrita nessa issue, agora é possível analisar, melhorar e dividir a ideia em partes menores e mais facilmente executáveis.
