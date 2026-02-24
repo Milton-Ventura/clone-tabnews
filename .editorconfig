@@ -1,0 +1,11 @@
+# Com o EditorConfig é possível definir configurações específicas por diretório. O EditorConfig busca um arquivo de configuração no diretório atual, caso não encontre irá subindo na árvore de pastas até encontrar um arquivo que possua a definição de "root", aplicando as configurações desse arquivo no comportamento do editor. 
+
+# Informa que é o diretório raiz da aplicação
+root = true
+
+# É possível especificar para quais tipos de arquivo as definições serão aplicadas, nesse caso todos os arquivos serão afetados
+[*]
+
+# Define o tipo e tamanho de caractere de indentação, nesse caso está definindo para utilizar 2 espaços "  " para indentar. Ou seja, ao pressionar o tab serão dados 2 espaços de distância.
+indent_style = space
+indent_size = 2
